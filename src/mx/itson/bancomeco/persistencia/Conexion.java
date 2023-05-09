@@ -16,7 +16,7 @@ public class Conexion {
      Connection conexion = null;
      
      try{
-         conexion = DriverManager.getConnection("jdbc:mysql://localhost/bancomecodb?user=root&password=1323");
+         conexion = DriverManager.getConnection("jdbc:mysql://localhost/bancomecodb?user=root&password=admin");
      }catch (Exception ex){
          System.err.print("Ocurrio un error" + ex.getMessage());
      }
